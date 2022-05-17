@@ -68,7 +68,7 @@ const chart = new Chart(ctx, {
         labels: realizadLabel,
         datasets: [{
             label: 'Año de la pelicula',
-            backgroundColor:'grey',                
+            backgroundColor:'lightblue',                
             borderColor: 'rgba(255, 99, 132, 1)',
             borderWidth: 1,
             data: realizadData 
