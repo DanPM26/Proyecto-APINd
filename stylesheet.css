@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #83adf1;
+	color: #1d1d1d;
+}
+
+header{
+    background-color: rgb(120, 186, 120);
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.dropbtn {
+    background-color: #889b9f;
+    color:aliceblue;
+    padding: 16px;
+    font-size: 16px;
+    border:none
+}
+.navbar {
+padding-top: 25px;
+    display: inline-block;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    background-color: rgb(205, 231, 222);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+.dropdown-content a:hover {
+    background-color: antiquewhite;
+}
+
+.navbar:hover .dropdown-content{
+    display:block
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blueviolet;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+    box-shadow: 10px 10px rgb(170, 157, 98);
+}
+
+.collapsible {
+    background-color: #486eab;
+    color: rgb(249, 244, 248);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #d2c2d6;
+    border-radius: 15px;
+    font-family: monospace;
+  }
+
+  .grafica {
+      background-color: rgb(203, 158, 158);
+  }
