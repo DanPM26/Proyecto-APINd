@@ -75,7 +75,7 @@ const chart = new Chart(ctx, {
     },
     {
         label: 'Duración de la pelicula',
-        backgroundColor: 'pink',
+        backgroundColor: 'deepskyblue',
         borderColor: 'rgb(255, 99, 132)',
         data: realizadDuracion
     }
