@@ -117,3 +117,8 @@ padding-top: 25px;
   .grafica {
       background-color: rgb(203, 158, 158);
   }
+
+  #mychart {
+      width: 200px;
+      height: 200px;
+  }
